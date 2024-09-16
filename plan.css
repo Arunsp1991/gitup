@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar styling */
+.sidebar {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    width: 250px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-menu li {
+    margin: 15px 0;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    padding: 5px 0;
+    display: block;
+    position: relative;
+}
+
+.nav-menu li a:hover {
+    background-color: #000000;
+    color: #f4f4f4;
+    padding-left: 20px;
+    transition: 0.3s;
+}
+
+.logout a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+    background-color: #FF5972;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.logout a:hover {
+    background-color: #4A5ED7;
+}
+
+/* Main content styling */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ecf0f1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 30px;
+    color: #4A5ED7;
+}
+
+.create-album-btn {
+    padding: 10px 20px;
+    background-color: #FF5971;
+    color: white;
+    border-style: 1px;
+    border-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: #ecf0f1;
+    cursor: pointer;
+    
+}
+
+.create-album-btn:hover {
+    background-color: #4A5ED7;
+    
+}
+
+.upload-section {
+    margin-bottom: 30px;
+}
+
+.upload-section h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.upload-btn {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.gonext-btn {
+    padding: 10px 20px;
+    background-color: #475BD1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 150px;
+    margin-left: 10px
+}
+
+.gonext-btn:hover {
+    background-color: #FF5971;
+    padding-left: 20px;
+    transition: 0.3s;
+}
+
+.upload-btn:hover {
+    background-color: #2ecc71;
+}
+
+.card {
+    margin-left: 23px;
+    height: 50px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #bdc3c7;
+    margin-bottom: 20px;
+}
+
+/* Plan page style */
+
+/* Profile container */
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Plan card styling */
+.plan-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.plan-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.plan-card p {
+    font-size: 16px;
+    color: #333;
+}
+
+.plan-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.plan-card ul li {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Buy Now button */
+.buy-now-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buy-now-btn:hover {
+    background-color: #0056b3;
+}
